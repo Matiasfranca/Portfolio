@@ -1,8 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Matias Saraiva",
+  "name": "Portifólio Matias Saraiva",
   "icons": [],
-  "start_url": ".",
+  "start_url": "https://programadormatias.x10.mx",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
