@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 40px;
+  width: 95vw;
+  height: 90vh;
+}
+
+.container-bgl {
+  border: 2px solid black;
+}
+
+.container-bgb {
+  border: 2px solid white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+header,
+ul {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 6%;
+}
+
+.active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.switch {
+  font-size: 22px;
+  position: absolute;
+  display: inline-block;
+  rotate: -90deg;
+  left: -62px;
+  bottom: 14.5%;
+}
+
+.child-switch {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.routes {
+  float: right;
+  max-width: 300px;
+}
+
+#info {
+  text-align: center;
+  max-width: 100px;
+  margin-right: 80px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 25px;
+}
+
+#projects {
+  font-size: 20px;
+  line-height: 40px;
+  max-width: 295px;
+}
+
+@media screen and (max-width: 865px) {
+  h1 {
+      font-size: 40px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+  
+  li {
+      font-size: 15px;
+  }
+
+  .routes {
+      float: right;
+      max-width: 300px;
+  }
+  
+  #projects {
+      font-size: 15px;
+      line-height: 40px;
+      max-width: 295px;
+  }
+
+  #bio{
+      font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  h1 {
+      font-size: 35px;
+  }
+
+  h3 {
+      font-size: 15px;
+  }
+  
+  li {
+      font-size: 15px;
+  }
+
+  .routes {
+      float: right;
+      max-width: 250px;
+  }
+  
+  #projects {
+      font-size: 13px;
+      line-height: 40px;
+      max-width: 250px;
+  }
+
+  #bio{
+      font-size: 13px;
+  }
+
+  #info {
+      font-size: 13px;
+      position: relative;
+      text-align: center;
+      max-width: 100px;
+      left: 80px;
+  }
+
+  #contact {
+      font-size: 13px;
+  }
+}
+
+/* css mobile */
+
+@media screen and (max-width: 400px) {
+
+  ul {
+      width: 100px;
+  }
+
+  #bio {
+      font-size: 12px;
+      position: relative;
+      top: -10px;
+      left: 10px;
+  }
+
+  #projects {
+      line-height: 30px;
+      font-size: 12px;
+  }
+
+  #info {
+      font-size: 12px;
+  }
+
+  #contact {
+      font-size: 12px;
+  }
+
+  p {
+      line-height: 20px;
+
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header, ul{
+      margin-bottom: 15px;
+      position: relative;
+      top: -20px;
+  }
+
+  header {
+      font-size: 15px;
+  }
+
+  ul {
+      width: 100px;
+  }
+
+  li {
+      font-size: 12px;
+  }
+
+  #bio {
+      width: 145px;
+      font-size: 10px;
+      font-weight: bold;
+      position: relative;
+      top: -30px;
+      left: 10px;
+  }
+
+  #projects {
+      line-height: 30px;
+      font-size: 12px;
+  }
+
+  #info {
+      font-size: 10px;
+      position: relative;
+      text-align: center;
+      width: 65px;
+      left: 80px;
+  }
+
+  #contact {
+      font-size: 12px;
+  }
+
+  p {
+      line-height: 18px;
+  }
+}
